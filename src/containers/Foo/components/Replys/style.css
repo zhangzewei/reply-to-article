@@ -1,0 +1,58 @@
+.message {
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.article {
+  padding: 5em;
+}
+
+.article p {
+  text-align: left;
+  line-height: 1.5em;
+  padding: 2em 0;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.reply {
+  position: relative;
+  height: 100px;
+  width: 80%;
+  margin: 0 auto;
+  border-bottom: 1px solid #bcbcbc;
+}
+
+.reply img,
+.reply p {
+  display: block;
+  float: left;
+  height: 100%;
+}
+
+.reply img {
+  padding: 0.5em;
+}
+
+.reply p {
+  width: 80%;
+  padding: 0.5em;
+}
+
+.reply span {
+  position: absolute;
+  display: block;
+  right: 5px;
+  bottom: 5px;
+  cursor: pointer;
+  color: #1a99d2;
+}
+
+.reply span.floor {
+  position: absolute;
+  display: block;
+  right: 5px;
+  top: 5px;
+  cursor: auto;
+  color: #bdbdbd;
+}
